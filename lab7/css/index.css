@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: burlywood;
+    padding: 50px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 25px;
+    background-color: darkseagreen;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+.text {
+  margin:auto;
+  background-color: azure;
+}
+
+img {
+
+    float: left;
+    width: 500px;
+    height: auto;
+    border: 20px solid seashell;
+
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
