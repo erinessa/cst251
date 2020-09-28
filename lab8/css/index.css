@@ -9,6 +9,7 @@ div#content {
     padding: 25px;
     background-color: #c2d4dd;
     height: 80vh;
+    margin: 20px;
 }
 
 #content, img {
@@ -20,20 +21,21 @@ h1, h2, h3 {
 }
 
 .text {
-  margin:auto;
+  margin:20px;
   background-color: #ddeedd;
+  width: 300px;
+
 }
 
-
-
 img {
-    float: left;
+    float: right;
     width: 500px;
     height: auto;
+    margin: 20px;
 }
 
 img:hover {
-    width: 700px;
+    width: 650px;
     height:auto;
 }
 
