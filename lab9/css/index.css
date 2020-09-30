@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #667292;
+    padding: 50px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 25px;
+    background-color: #f1e3dd;
+    height: 80vh;
+    margin: 20px;
+}
+
+#content, img {
+    border: 20px solid #bccad6;
+    border-style: groove;
+}
+
+h1{
+    font-family: 'Almendra Display';
+}
+
+h2 {
+  font-family: 'Athiti';
+}
+
+.text {
+  margin: 20px;
+  background-color: #8d9db6;
+  width: 500px;
+  color: #f0f0f0;
+
+}
+
+p {
+  font-family: 'Athiti';
+}
+
+img {
+    float: right;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+
+img:hover {
+    width: 650px;
+    height:auto;
+}
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
