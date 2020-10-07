@@ -5,10 +5,10 @@ body {
     font-size: 120%;
 }
 
-div#content {
+main#content {
     padding: 25px;
     background-color: #f1e3dd;
-}    
+}
 
 #content, img {
     border: 20px solid #bccad6;
@@ -30,6 +30,11 @@ h2 {
   font-variant: small-caps;
 }
 
+h3 {
+  font-family: 'Forum', cursive;
+  font-variant: small-caps;
+}
+
 .text {
   margin: 20px;
   background-color: #8d9db6;
@@ -38,22 +43,44 @@ h2 {
 
 }
 
+#sidebar {
+  width: 33%;
+  min-width: 300px;
+  position: absolute;
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: inline-block;
+  background-color: #111;
+  top: 0px;
+  right: 0px;
+}
+
+#sidebar p {
+  line-height: 200%;
+  padding: 25px;
+  text-decoration: none;
+  color: #818181;
+  font-size: 16px;
+}
+
+nav#links {
+  position: sticky;
+    top: 0px;
+  background-color: black;
+  border: 3px solid #000000;
+}
+
 p {
   font-family: 'Arsenal', sans-serif;
-
 }
 
 img {
-    float: right;
+    float: inherit;
     width: 300px;
     height: auto;
     margin: 20px;
-}
-
-img:hover {
-    width: 325px;
-    height:auto;
-
 }
 
 span {
@@ -63,7 +90,7 @@ span {
 
 a {
     text-decoration: none;
-    color: seashell;
+    color: gray;
 }
 
 a:hover {
