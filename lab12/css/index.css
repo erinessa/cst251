@@ -29,10 +29,6 @@ main#content {
     margin-right: auto;
 }
 
-#center-both {
-    position: relative;
-}
-
 #center-both img {
     margin-left: 0;
     position: absolute;
