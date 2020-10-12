@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #667292;
+    padding: 50px;
+    font-size: 120%;
+}
+
+main#content {
+    padding: 25px;
+    background-color: #f1e3dd;
+}
+
+#content, img {
+    border: 20px solid #bccad6;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+#floated {
+    float: right;
+}
+
+#center-horz {
+    text-align: center;
+}
+
+#center-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-both {
+    position: relative;
+}
+
+#center-both img {
+    margin-left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+  display: block;
+  width: 30%;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: full-width;
+}
+
+h2 {
+  font-family: 'Forum', cursive;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-family: 'Forum', cursive;
+  font-variant: small-caps;
+}
+
+.text {
+  margin: 20px;
+  background-color: #8d9db6;
+  width: inherit;
+  color: #f0f0f0;
+
+}
+
+#sidebar {
+  width: 33%;
+  min-width: 300px;
+  position: absolute;
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: inline-block;
+  background-color: #111;
+  top: 0px;
+  right: 0px;
+}
+
+#sidebar p {
+  line-height: 200%;
+  padding: 25px;
+  text-decoration: none;
+  color: #818181;
+  font-size: 16px;
+}
+
+nav#links {
+  position: sticky;
+    top: 0px;
+  background-color: black;
+  border: 3px solid #000000;
+}
+
+p {
+  font-family: 'Arsenal', sans-serif;
+}
+
+img {
+    float: inherit;
+    min-width: 100px;
+    max-width: 150px;
+    height: auto;
+    margin: 20px;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
