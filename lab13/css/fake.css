@@ -1,0 +1,62 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #181818;
+  font-family: Avenir, Arial, sans-serif;
+  color: white;
+}
+
+div#contents {
+  padding: 10px;
+}
+
+nav#links {
+  padding: 25px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+div.left p {
+  float:left;
+  color: black;
+}
+
+div.right p {
+  float:right;
+  color: black;
+}
+
+div#heading {
+  position: absolute;
+  margin-left: 10%;
+  bottom: 10%;
+}
+
+div#heading p {
+  color: black;
+  font-size: 300px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+div#text {
+  width: 500px;
+  margin-top: 200px;
+  float: left;
+  margin-left: 150px;
+  padding-top: 350px;
+}
+
+div#text p {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 22px;
+  line-height: 1.6;
+}
