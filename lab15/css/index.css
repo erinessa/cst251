@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-image: linear-gradient(to right, #acc756, #323d10);
+    padding: 50px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 25px;
+    background-color: #f1e3dd;
+}
+
+#content, img {
+    border: 20px solid #bccad6;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+div {
+  display: block;
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 0 25px;
+  border: 2px solid #73AD21;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: full-width;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+  font-family: 'Forum', cursive;
+  font-variant: small-caps;
+  text-shadow: 0 0 5px black;
+}
+
+.text {
+  margin: 20px;
+  background-color: #8d9db6;
+  width: inherit;
+  color: #f0f0f0;
+
+}
+
+p {
+  font-family: 'Arsenal', sans-serif;
+
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    filter: blur(5px);
+    width:200px; height:300px; object-fit: cover;
+    transform: translate(50px, 100px);
+}
+
+img:hover {
+    width: 325px;
+    height:auto;
+    filter: blur(0);
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
