@@ -26,16 +26,6 @@ h1{
     text-transform: full-width;
 }
 
-h2 {
-  font-family: 'Forum', cursive;
-  font-variant: small-caps;
-}
-
-h3 {
-  font-family: 'Forum', cursive;
-  font-variant: small-caps;
-}
-
 .text {
   margin: 20px;
   background-color: #8d9db6;
