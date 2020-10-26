@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-image: linear-gradient(to right, #acc756, #323d10);
+    padding: 50px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 25px;
+    background-image: url("../img/flower.png"), url("../img/grass.jpg");
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 200px, cover;
+}
+
+
+#content, img {
+    border: 20px solid #bccad6;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+div {
+  display: block;
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 0 25px;
+  border: 2px solid black;
+
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: full-width;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+  font-family: 'Forum', cursive;
+  font-variant: small-caps;
+  text-shadow: 0 0 5px black;
+}
+
+.text {
+  margin: 20px;
+  background-color: #8d9db6;
+  width: inherit;
+  color: #f0f0f0;
+  column-count: 3;
+  column-gap: 30px;
+  column-rule: 4px double white;
+  background-color: dimgrey;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  from {background-color: cornflowerblue;}
+  to {background-color: cadetblue;}
+}
+
+p {
+  font-family: 'Arsenal', sans-serif;
+
+}
+
+img {
+    float: right;
+    margin: 20px;
+    filter: blur(5px);
+    width:200px; height:300px; object-fit: cover;
+    transform: translate(50px, 100px);
+    width: 500px;
+    transition: width 5s;
+    transition-delay: 1s;
+}
+
+#img {
+  transition-timing-function: ease-in-out;
+}
+
+img:hover {
+  width: 900px;
+  filter: blur(0);
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
