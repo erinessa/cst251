@@ -1,0 +1,25 @@
+.col{
+  min-height:200px;
+  border: solid .5px black;
+  background-color: honeydew;
+}
+
+.col h1, .col h2{
+  text-align: center;
+}
+
+.row{
+  border: solid .5px gray;
+}
+
+video {
+  width: 100%;
+}
+
+.btn-warning {
+  background-color: black;
+}
+
+.btn-warning:hover {
+  background-color: white;
+}
