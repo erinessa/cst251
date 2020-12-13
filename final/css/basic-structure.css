@@ -2,6 +2,7 @@ body {
   width: 100%;
   margin: 0;
   background-color: #f2f2f2;
+  overflow-x: hidden;
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap');
 }
 
@@ -20,19 +21,18 @@ h1 {
   color: #8d3f3f;
 }
 
-h3 {
-  font-size: 2vw;
-}
 
 h2 {
   font-size: 3vw;
   color: #404040;
+  padding: 0vh 2vw 0vh 2vw;
 }
 
 #center-box p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   color: black;
+  padding: 2vh 2vw 2vh 2vw;
 }
 
 @media (max-width: 600px) {
@@ -74,4 +74,16 @@ iframe {
 #imgbox img{
   height: auto;
   max-width: 25%;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #center-box p {
+    font-size: 4vw;
+  }
 }

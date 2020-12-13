@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Movies & Shows</title><!--Change the Title to whatever it's called-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/basic-structure.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/side-articles.css">
+    <link rel="stylesheet" href="css/3x3grid.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins&display=swap" rel="stylesheet">
+    <!--Add any css files after this don't mess with anything above just the title name that way
+    if you mess up the problem is in your css file or something wrong within the div id center-box-->
+
+</head>
+  <body>
+    <h1>Otter's Digest</h1>
+    <hr/>
+    <ul class="topnav">
+      <li><a class="active" href="./homepage.html">Home</a></li>
+      <li><a href="./videogames.html">Video Game</a></li>
+      <li><a href="./art.html">Art</a></li>
+      <li><a href="./movies-shows.html">Movies & TV</a></li>
+      <li><a href="./music.html">Music</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+    </ul><br>
+
+    <div id="slideshow">
+      <figure>
+        <img src="img/prideandp.jpg">
+        <img src="img/startupall.jpg">
+        <img src="img/hannibalCast.jpg">
+        <img src="img/caosbanner.jpg">
+        <img src="got.jpg">
+      </figure>
+    </div><br>
+
+    <div id="center-box"><!--Things with in the Center Box-->
+      <div class="content-box">
+        <div class="flex-column-left">
+          <h2>Movies & TV Series</h2>
+          <p>Write a description</p>
+          <hr/>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./got.html><img src="img/got.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./got.html">Game of Thrones</a><br>
+                      <div class="article-author">By Nick Rodarte <br> December 12, 2020</div>
+                      <div class="description">Rating: 4/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./aggretsuko.html><img src="img/rage.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./aggretsuko.html">Aggretsuko</a><br>
+                      <div class="article-author">By Michael Owen <br> December 12, 2020</div>
+                      <div class="description">Rating: 5/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./hannibal.html><img src="img/hannibalCast.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./hannibal.html">Hannibal</a><br>
+                      <div class="article-author">By Vanessa Garcia <br> December 12, 2020</div>
+                      <div class="description">Rating: 5/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./caos.html><img src="img/caosnabrina.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./caos.html">The Chilling Adventures of Sabrina</a><br>
+                      <div class="article-author">By Vanessa Garcia <br> December 12, 2020</div>
+                      <div class="description">Rating: 5/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./startup.html><img src="img/startupall.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./startup.html">Start-Up</a><br>
+                      <div class="article-author">By Vanessa Garcia <br> December 12, 2020</div>
+                      <div class="description">Rating: 5/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-article-container">
+                <a href=./pandp.html><img src="img/prideandp.jpg"></a>
+                  <div class="container">
+                    <a class="article-title" href="./pandp.html">Pride and Prejudice</a><br>
+                      <div class="article-author">By Vanessa Garcia <br> December 12, 2020</div>
+                      <div class="description">Rating: 5/5</div><!--write the article author date and time-->
+                  </div>
+              </div>
+            </div>
+
+
+
+          </div>
+      </div>
+    </div><!--The Center Box End Div-->
+
+    <!--Don't mess with footer-->
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row"> <!-- Grid row -->
+          <div class="col-sm">
+            <h5 class="text-uppercase">Content</h5>
+            <hr class="color-change"/>
+            <ul class="list-unstyled">
+              <li>
+                <a href="./videogames.html">Video Games</a>
+              </li>
+              <li>
+                <a href="./art.html">Art</a>
+              </li>
+              <li>
+                <a href="./movies-shows.html">Movies/Shows</a>
+              </li>
+              <li>
+              <li>
+                <a href="./music.html">Music</a>
+              </li>
+            </ul>
+          </div><!-- Grid column -->
+
+          <div class="col-sm">
+            <h5 class="text-uppercase">Designers</h5>
+            <hr class="color-change"/>
+            <ul class="list-unstyled">
+              <li>
+                <a href="./aboutus.html#michael-owen">Michael Owen</a>
+              </li>
+              <li>
+                <a href="./aboutus.html#nick-rodarte">Nick Rodarte</a>
+              </li>
+              <li>
+                <a href="./aboutus.html#vanessa-garcia">Vanessa Garcia</a>
+              </li>
+              <li>
+                <a href="./aboutus.html#yulitsa-pantoja">Yulitsa Pantoja</a>
+              </li>
+              <li>
+                <a href="./aboutus.html#ross-maeder">Ross Maeder</a>
+              </li>
+            </ul>
+          </div><!-- Grid column -->
+
+          <div class="col-md">
+            <h5 class="text-uppercase">From The Creators</h5>
+            <hr class="color-change"/>
+            <p id="left">We hope you enjoy viewing our website and discover new great media to
+            learn more about to help pass the time during quarentine.</p>
+          </div><!-- Grid column -->
+
+          </div><!-- Grid row -->
+            <div class="footer-copyright text-center py-3">
+              © 2020 Copyright
+          </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
