@@ -61,3 +61,17 @@ a {
   height: auto;
   padding: 15px;
 }
+
+iframe {
+  max-width: 100%;
+  display: flex;
+}
+
+#imgbox {
+  display: inline-block;
+}
+
+#imgbox img{
+  height: auto;
+  max-width: 25%;
+}
